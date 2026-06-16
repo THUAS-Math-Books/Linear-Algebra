@@ -30,7 +30,10 @@ parse:
     myst_dmath_double_inline: true
     myst_heading_anchors : 5
 sphinx:
+  local_extensions:
+    attribution: _ext/
   config:
+    tud_change_logo: false
     inverter_all: false
     sphinx_indexed_defs_indexed_nodes: ['strong']
     html_theme_options:
@@ -40,6 +43,8 @@ sphinx:
       use_repository_button: true
       use_issues_button : true
       logo:
+        image_light: logos/HHS_EN_groen_HEX.svg
+        image_dark: logos/HHS_EN_groen_HEX.svg
         text: Linear algebra
       extra_footer: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
     html_static_path: 

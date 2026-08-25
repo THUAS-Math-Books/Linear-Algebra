@@ -2023,7 +2023,7 @@ The exercises below are more theoretical.
 :url: https://embed.grasple.com/exercises/2940572e-f3bf-40e9-bf01-c2244c6f9aa5?id=70648
 :label: grasple_exercise_4_2_17
 :dropdown:
-:description: Which of four statements about $\operatorname{Nul}(A)$ is incorrect?
+:description: Which of four statements about $\operatorname{Nul}(A)$ is correct?
 
 ::::::
 
